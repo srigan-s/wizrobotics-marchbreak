@@ -38,20 +38,20 @@ function DayPage({ day, content }: DayPageProps) {
             title="Scratch Programming"
             emoji="💻"
             color="from-green-400 to-emerald-600"
+            instructions={content.scratch.instructions}
             links={[
               ...content.scratch.links,
               { url: 'https://scratch.mit.edu', label: 'Open Scratch Editor' }
             ]}
-            description="Learn to code by creating games and animations!"
           />
 
           <SectionCard
             title="Roblox Development"
             emoji="🎮"
             color="from-blue-400 to-blue-600"
-            description="Build amazing worlds and games in Roblox!"
+            instructions={content.roblox.instructions}
           >
-            <div className="space-y-3">
+            <div className="space-y-3 mt-4">
               {content.roblox.slides && (
                 <a
                   href={content.roblox.slides}
@@ -63,15 +63,15 @@ function DayPage({ day, content }: DayPageProps) {
                   <span>View Roblox Lesson Slides</span>
                 </a>
               )}
-              {content.roblox.instructions && (
+              {content.roblox.moreInfo && (
                 <a
-                  href={content.roblox.instructions}
+                  href={content.roblox.moreInfo}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 bg-white text-gray-800 px-6 py-4 rounded-xl font-bold text-lg hover:shadow-lg transform hover:scale-102 transition-all"
                 >
                   <span className="text-2xl">📝</span>
-                  <span>View Instructions</span>
+                  <span>View More Instructions</span>
                 </a>
               )}
             </div>
@@ -81,9 +81,9 @@ function DayPage({ day, content }: DayPageProps) {
             title="STEM Craft Activity"
             emoji="🔧"
             color="from-orange-400 to-red-500"
-            description={`Today's crafts: ${content.stemCraft.activities.join(' & ')}`}
+            instructions={content.stemCraft.instructions}
             links={[
-              { url: content.stemCraft.slides, label: 'View Craft Instructions' }
+              { url: content.stemCraft.slides, label: 'View Craft Slides' }
             ]}
           />
         </div>

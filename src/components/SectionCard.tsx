@@ -11,10 +11,11 @@ interface SectionCardProps {
   color: string;
   links?: Link[];
   description?: string;
+  instructions?: string;
   children?: React.ReactNode;
 }
 
-function SectionCard({ title, emoji, color, links, description, children }: SectionCardProps) {
+function SectionCard({ title, emoji, color, links, description, instructions, children }: SectionCardProps) {
   return (
     <div className={`bg-gradient-to-br ${color} rounded-2xl shadow-xl p-6 md:p-8`}>
       <div className="flex items-center gap-4 mb-6">
@@ -26,6 +27,12 @@ function SectionCard({ title, emoji, color, links, description, children }: Sect
         <p className="text-white text-lg mb-6 bg-white/20 rounded-lg p-4">
           {description}
         </p>
+      )}
+
+      {instructions && (
+        <div className="bg-white/20 rounded-xl p-6 mb-6 text-white">
+          <p className="text-base leading-relaxed">{instructions}</p>
+        </div>
       )}
 
       {children}
