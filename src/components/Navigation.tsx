@@ -7,21 +7,26 @@ function Navigation({ currentPage, onNavigate }: NavigationProps) {
   const pages = ['Home', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
 
   return (
-    <nav className="bg-gradient-to-r from-blue-500 to-cyan-500 shadow-lg">
-      <div className="container mx-auto px-4">
-        <div className="flex flex-wrap items-center justify-center gap-2 py-4">
-          <div className="flex items-center gap-3 mb-2 sm:mb-0">
-            <div className="text-white font-bold text-xl">🤖 Wiz Robotics</div>
-          </div>
-          <div className="flex flex-wrap gap-2 justify-center">
+    <nav className="border-b border-purple-100 bg-white/95 backdrop-blur">
+      <div className="container mx-auto px-4 py-4">
+        <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
+          <button
+            onClick={() => onNavigate('Home')}
+            className="text-left"
+            aria-label="Go to home page"
+          >
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-purple-700">Wiz Robotics</p>
+            <p className="text-lg font-bold text-slate-900">March Break Camp 2026</p>
+          </button>
+          <div className="flex flex-wrap justify-center gap-2">
             {pages.map((page) => (
               <button
                 key={page}
                 onClick={() => onNavigate(page)}
-                className={`px-6 py-3 rounded-lg font-bold text-lg transition-all transform hover:scale-105 ${
+                className={`rounded-md px-4 py-2 text-sm font-semibold transition ${
                   currentPage === page
-                    ? 'bg-white text-blue-600 shadow-lg'
-                    : 'bg-blue-600 text-white hover:bg-blue-700'
+                    ? 'bg-purple-700 text-white shadow'
+                    : 'bg-purple-50 text-purple-800 hover:bg-purple-100'
                 }`}
               >
                 {page}
