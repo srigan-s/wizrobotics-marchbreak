@@ -8,15 +8,18 @@ interface Link {
 interface DayContent {
   scratch: {
     links: Link[];
+    instructions?: string;
   };
   roblox: {
     slides?: string;
     instructions?: string;
+    moreInfo?: string;
   };
   stemCraft: {
     title: string;
     activities: string[];
-    slides: string;
+    instructions?: string;
+    slides: Link[] | string;
   };
 }
 
@@ -82,9 +85,7 @@ function DayPage({ day, content }: DayPageProps) {
             emoji="🔧"
             color="from-orange-400 to-red-500"
             instructions={content.stemCraft.instructions}
-            links={[
-              { url: content.stemCraft.slides, label: 'View Craft Slides' }
-            ]}
+            links={Array.isArray(content.stemCraft.slides) ? content.stemCraft.slides : [{ url: content.stemCraft.slides, label: 'View Craft Slides' }]}
           />
         </div>
       </div>

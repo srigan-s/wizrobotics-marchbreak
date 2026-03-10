@@ -26,9 +26,16 @@ export const campContent = {
       title: 'Monday Crafts',
       instructions: 'Get creative with hands-on crafts! Today you\'ll build an aluminum boat to explore buoyancy and design, plus create a fun monster handcraft. Use the slides as your guide for each step.',
       activities: ['Aluminum Boat', 'Monster Handcraft'],
-      slides: 'https://docs.google.com/presentation/u/3/d/1naVr2-G1t4tO6MoOffRhK272LdtkJ-mj/edit'
-    }
-    slides: 'https://docs.google.com/presentation/u/3/d/1naVr2-G1t4tO6MoOffRhK272LdtkJ-mj/edit'
+      slides: [
+        {
+          url: 'https://docs.google.com/presentation/d/1Zqk2no6YOcjAyjsRC9G5L7ldOo2rYAFq/edit?usp=sharing&ouid=111614906480262801956&rtpof=true&sd=true',
+          label: 'Aluminum Boat'
+        },
+        {
+          url: 'https://docs.google.com/presentation/d/1voZow-kqZXrseU3uCmStVs-HBdH0F92v/edit?usp=sharing&ouid=111614906480262801956&rtpof=true&sd=true',
+          label: 'Monster Handcraft'
+        }
+      ]
     }
   },
   Tuesday: {
@@ -50,7 +57,16 @@ export const campContent = {
       title: 'Tuesday Crafts',
       instructions: 'Build a mini robot claw to learn about mechanics and engineering! Then create a beautiful kaleidoscope to explore patterns and light. Both projects combine art and science.',
       activities: ['Mini Robot Claw', 'Kaleidoscope'],
-      slides: 'https://docs.google.com/presentation/u/3/d/1jmdcMXAKE0ceO_7YP48VdW9aOMy0ty2m/edit'
+      slides: [
+        {
+          url: 'https://docs.google.com/presentation/d/1mC9kKWUCSJAfal2xpW05fq2ROOpFlbfm/edit?usp=sharing&ouid=111614906480262801956&rtpof=true&sd=true',
+          label: 'Mini Robot Claw'
+        },
+        {
+          url: 'https://docs.google.com/presentation/d/1l0-cThaarhYXmL-apO-d4vGmB5zTLDiJ/edit?usp=sharing&ouid=111614906480262801956&rtpof=true&sd=true',
+          label: 'Kaleidoscope'
+        }
+      ]
     }
   },
   Wednesday: {
@@ -72,7 +88,16 @@ export const campContent = {
       title: 'Wednesday Crafts',
       instructions: 'Bring circuits and light to life! Create a light-up card using LED circuits, then build a rubber band car powered by simple mechanics. These hands-on projects show how physics works in real life.',
       activities: ['Light Up Card', 'Rubber Band Car'],
-      slides: 'https://docs.google.com/presentation/u/3/d/1cfgDWM_7XL2qHBztQc4bwA5Lhf6nv8Pf/edit'
+      slides: [
+        {
+          url: 'https://docs.google.com/presentation/d/1GByOSNU3TiBlqsx5tpyZcXAtlnsH_Uik/edit?usp=sharing&ouid=111614906480262801956&rtpof=true&sd=true',
+          label: 'Light Up Card'
+        },
+        {
+          url: 'https://docs.google.com/presentation/d/1TRz04Hs5NsqOZF2uqyLaT2TUk8UPBzko/edit?usp=sharing&ouid=111614906480262801956&rtpof=true&sd=true',
+          label: 'Rubber Band Car'
+        }
+      ]
     }
   },
   Thursday: {
@@ -94,7 +119,12 @@ export const campContent = {
       title: 'Thursday Craft',
       instructions: 'Engineer and build a sturdy bridge! Learn about load-bearing structures and design principles as you create a bridge that can support weight. Test your engineering skills!',
       activities: ['Bridge Building'],
-      slides: 'https://docs.google.com/presentation/u/3/d/1XXYaYts6igGgCWU5icxg-Ae4DuupDnoW/edit'
+      slides: [
+        {
+          url: 'https://docs.google.com/presentation/d/1UAfrHszOa_C4hsFz8P1s0ELFxWVv-Esn/edit?usp=sharing&ouid=111614906480262801956&rtpof=true&sd=true',
+          label: 'Bridge Building'
+        }
+      ]
     }
   },
   Friday: {
@@ -116,7 +146,12 @@ export const campContent = {
       title: 'Friday Craft',
       instructions: 'Create the ultimate marble maze! Design and build a challenging maze that rolls marbles through loops and turns. Test it and have fun watching your creation work!',
       activities: ['Marble Maze'],
-      slides: 'https://docs.google.com/presentation/u/3/d/1aaRUrfVjJEA9SL-erdHOBVZ5qJCNsjPI/edit'
+      slides: [
+        {
+          url: 'https://docs.google.com/presentation/d/1bKVpIywA_4frcOxWVYzFR4VYM69TFOY9/edit?usp=sharing&ouid=111614906480262801956&rtpof=true&sd=true',
+          label: 'Marble Maze'
+        }
+      ]
     }
   }
 };
