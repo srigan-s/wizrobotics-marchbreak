@@ -30,17 +30,17 @@ interface DayPageProps {
 
 function DayPage({ day, content }: DayPageProps) {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50">
-      <div className="container mx-auto px-4 py-12">
-        <h1 className="text-5xl font-bold text-center text-gray-800 mb-12">
-          {day}'s Activities
-        </h1>
+    <div className="min-h-screen bg-gradient-to-b from-slate-100 to-purple-50">
+      <div className="container mx-auto px-4 py-10 md:py-14">
+        <header className="mb-8 rounded-2xl border border-purple-100 bg-white p-8 shadow-lg">
+          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-purple-700">Daily Lessons</p>
+          <h1 className="mt-2 text-4xl font-bold text-slate-900">{day}</h1>
+        </header>
 
-        <div className="space-y-8 max-w-6xl mx-auto">
+        <div className="space-y-6 max-w-6xl mx-auto">
           <SectionCard
             title="Scratch Programming"
             emoji="💻"
-            color="from-green-400 to-emerald-600"
             instructions={content.scratch.instructions}
             links={[
               ...content.scratch.links,
@@ -51,18 +51,16 @@ function DayPage({ day, content }: DayPageProps) {
           <SectionCard
             title="Roblox Development"
             emoji="🎮"
-            color="from-blue-400 to-blue-600"
             instructions={content.roblox.instructions}
           >
-            <div className="space-y-3 mt-4">
+            <div className="mt-4 space-y-3">
               {content.roblox.slides && (
                 <a
                   href={content.roblox.slides}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-3 bg-white text-gray-800 px-6 py-4 rounded-xl font-bold text-lg hover:shadow-lg transform hover:scale-102 transition-all"
+                  className="flex items-center gap-3 rounded-lg border border-purple-100 bg-white px-4 py-3 font-semibold text-purple-800 transition hover:bg-purple-50"
                 >
-                  <span className="text-2xl">📊</span>
                   <span>View Roblox Lesson Slides</span>
                 </a>
               )}
@@ -71,10 +69,9 @@ function DayPage({ day, content }: DayPageProps) {
                   href={content.roblox.moreInfo}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-3 bg-white text-gray-800 px-6 py-4 rounded-xl font-bold text-lg hover:shadow-lg transform hover:scale-102 transition-all"
+                  className="flex items-center gap-3 rounded-lg border border-purple-100 bg-white px-4 py-3 font-semibold text-purple-800 transition hover:bg-purple-50"
                 >
-                  <span className="text-2xl">📝</span>
-                  <span>View More Instructions</span>
+                  <span>View Additional Instructions</span>
                 </a>
               )}
             </div>
@@ -83,7 +80,6 @@ function DayPage({ day, content }: DayPageProps) {
           <SectionCard
             title="STEM Craft Activity"
             emoji="🔧"
-            color="from-orange-400 to-red-500"
             instructions={content.stemCraft.instructions}
             links={Array.isArray(content.stemCraft.slides) ? content.stemCraft.slides : [{ url: content.stemCraft.slides, label: 'View Craft Slides' }]}
           />

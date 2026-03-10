@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-100 text-slate-900 antialiased;
+  }
+}
+
+@layer components {
+  .wiz-surface {
+    @apply rounded-2xl border border-purple-100 bg-white shadow-lg;
+  }
+
+  .wiz-title {
+    @apply text-3xl font-bold tracking-tight text-slate-900 md:text-4xl;
+  }
+
+  .wiz-subtitle {
+    @apply text-lg text-slate-600 md:text-xl;
+  }
+
+  .wiz-button-primary {
+    @apply inline-flex items-center justify-center rounded-lg bg-purple-700 px-5 py-3 text-sm font-semibold text-white transition hover:bg-purple-800;
+  }
+}
