@@ -16,7 +16,7 @@ function HomePage({ onNavigate }: HomePageProps) {
       <div className="container mx-auto px-4 py-12">
         <div className="text-center mb-12">
           <h1 className="text-6xl font-bold text-gray-800 mb-4">
-            March Break Camp 2024
+            March Break Camp 2026
           </h1>
           <p className="text-2xl text-gray-700">
             Choose a day to start your adventure!
