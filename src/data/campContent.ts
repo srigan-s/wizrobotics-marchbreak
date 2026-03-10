@@ -28,6 +28,8 @@ export const campContent = {
       activities: ['Aluminum Boat', 'Monster Handcraft'],
       slides: 'https://docs.google.com/presentation/u/3/d/1naVr2-G1t4tO6MoOffRhK272LdtkJ-mj/edit'
     }
+    slides: 'https://docs.google.com/presentation/u/3/d/1naVr2-G1t4tO6MoOffRhK272LdtkJ-mj/edit'
+    }
   },
   Tuesday: {
     scratch: {
