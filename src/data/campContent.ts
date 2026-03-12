@@ -4,15 +4,15 @@ export const campContent = {
       instructions: 'Start your coding journey! Learn the basics of Scratch programming by creating simple games and animations. Follow along with the slides to understand how blocks work together to make your ideas come to life.',
       links: [
         {
-          url: 'https://docs.google.com/presentation/d/10Po_Xc3dS0gg6rCtg-yVK-cO644wqFNP2JM3pRsmDaA/edit',
+          url: 'https://docs.google.com/presentation/d/10Po_Xc3dS0gg6rCtg-yVK-cO644wqFNP2JM3pRsmDaA/edit?usp=sharing',
           label: 'Scratch Slides 1'
         },
         {
-          url: 'https://docs.google.com/presentation/d/1o8TOzYRz-LpDLucSj-81fb81iH24jK8Fko24KNOaccc/edit',
+          url: 'https://docs.google.com/presentation/d/1o8TOzYRz-LpDLucSj-81fb81iH24jK8Fko24KNOaccc/edit?usp=sharing',
           label: 'Scratch Slides 2'
         },
         {
-          url: 'https://docs.google.com/presentation/d/15Wv0ZUk4CNVvAbLoLiwF-pzCqtZ8c1Ykar4rkHqKr9A/edit',
+          url: 'https://docs.google.com/presentation/d/144lFlYVSh7aOTHZAJsn3F9VfOYQYrfRS4AMdyNSl68I/edit?usp=sharing',
           label: 'Scratch Slides 3'
         }
       ]
@@ -43,7 +43,7 @@ export const campContent = {
       instructions: 'Continue building your Scratch skills! Today you\'ll expand on what you learned and create more complex projects. Experiment with different blocks and see what cool things you can make.',
       links: [
         {
-          url: 'https://docs.google.com/presentation/d/1aO-QTzm3t6YhO4eF180rLXIaVNPj0C08nVMkwtauikw/edit',
+          url: 'https://docs.google.com/presentation/d/15Wv0ZUk4CNVvAbLoLiwF-pzCqtZ8c1Ykar4rkHqKr9A/edit?usp=sharing',
           label: 'Tuesday Scratch Slides'
         }
       ]
@@ -74,7 +74,7 @@ export const campContent = {
       instructions: 'You\'re a Scratch pro now! Create advanced projects with animations, sound effects, and user interaction. Challenge yourself to build something you\'ve never tried before!',
       links: [
         {
-          url: 'https://docs.google.com/presentation/d/1jEu2rCn9bC-sDf4H3Eazil28Zt-rk2-U7uYUtvCEJ2Y/edit',
+          url: 'https://docs.google.com/presentation/d/1aO-QTzm3t6YhO4eF180rLXIaVNPj0C08nVMkwtauikw/edit?usp=sharing',
           label: 'Wednesday Scratch Slides'
         }
       ]
@@ -105,7 +105,7 @@ export const campContent = {
       instructions: 'Final Scratch challenge! Take everything you\'ve learned and create your masterpiece. Think of a cool idea and bring it to life using all the Scratch techniques you\'ve mastered.',
       links: [
         {
-          url: 'https://docs.google.com/presentation/d/1OKwQVoRN2xvIAks90ePt6RIXBAEdXUEdEnYRcelUXOg/edit',
+          url: 'https://docs.google.com/presentation/d/1jEu2rCn9bC-sDf4H3Eazil28Zt-rk2-U7uYUtvCEJ2Y/edit?usp=sharing',
           label: 'Thursday Scratch Slides'
         }
       ]
@@ -132,7 +132,7 @@ export const campContent = {
       instructions: 'Celebration day! Show off your amazing Scratch projects. You\'ve learned so much this week - from basic blocks to complex games. Keep creating and sharing your ideas!',
       links: [
         {
-          url: 'https://docs.google.com/presentation/d/144lFlYVSh7aOTHZAJsn3F9VfOYQYrfRS4AMdyNSl68I/edit',
+          url: 'https://docs.google.com/presentation/d/1OKwQVoRN2xvIAks90ePt6RIXBAEdXUEdEnYRcelUXOg/edit?usp=sharing',
           label: 'Friday Scratch Slides'
         }
       ]
