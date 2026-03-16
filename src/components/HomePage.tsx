@@ -4,6 +4,14 @@ interface HomePageProps {
 
 function HomePage({ onNavigate }: HomePageProps) {
   const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
+  const leaderboard = [
+    'Isaac Deng',
+    'Joey Li',
+    'Kevin Chen',
+    'Elvis Chen',
+    'Ray Wang',
+    'Asher Cruz',
+  ];
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-100 to-purple-50">
@@ -14,6 +22,23 @@ function HomePage({ onNavigate }: HomePageProps) {
           <p className="wiz-subtitle max-w-3xl">
             Select a day to access lesson slides, Scratch activities, Roblox resources, and STEM craft guides.
           </p>
+        </section>
+
+        <section className="wiz-surface mb-10 p-8 md:p-10">
+          <h2 className="mb-6 text-2xl font-bold text-slate-900">Live: Best Crafts Leaderboard</h2>
+          <ol className="space-y-3">
+            {leaderboard.map((student, index) => (
+              <li
+                key={student}
+                className="flex items-center justify-between rounded-xl border border-purple-100 bg-purple-50 px-4 py-3"
+              >
+                <span className="font-semibold text-slate-900">
+                  {index + 1}. {student}
+                </span>
+                <span className="text-sm font-semibold text-purple-700">0 points</span>
+              </li>
+            ))}
+          </ol>
         </section>
 
         <section className="mb-10">
