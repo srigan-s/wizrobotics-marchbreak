@@ -56,7 +56,7 @@ export const campContent = {
     stemCraft: {
       title: 'Tuesday Crafts',
       instructions: 'Build a mini robot claw to learn about mechanics and engineering! Then create a beautiful kaleidoscope to explore patterns and light. Both projects combine art and science.',
-      activities: ['Mini Robot Claw', 'Kaleidoscope'],
+      activities: ['Mini Robot Claw', 'Kaleidoscope', 'Desktop Viking Catapult'],
       slides: [
         {
           url: 'https://docs.google.com/presentation/d/1mC9kKWUCSJAfal2xpW05fq2ROOpFlbfm/edit?usp=sharing&ouid=111614906480262801956&rtpof=true&sd=true',
@@ -65,6 +65,10 @@ export const campContent = {
         {
           url: 'https://docs.google.com/presentation/d/1l0-cThaarhYXmL-apO-d4vGmB5zTLDiJ/edit?usp=sharing&ouid=111614906480262801956&rtpof=true&sd=true',
           label: 'Kaleidoscope'
+        },
+        {
+          url: 'https://www.instructables.com/How-to-Make-a-Desktop-Viking-Catapult-with-a-bonu/',
+          label: 'Desktop Viking Catapult'
         }
       ]
     }
