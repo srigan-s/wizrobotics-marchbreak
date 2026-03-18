@@ -100,6 +100,10 @@ export const campContent = {
         {
           url: 'https://docs.google.com/presentation/d/1TRz04Hs5NsqOZF2uqyLaT2TUk8UPBzko/edit?usp=sharing&ouid=111614906480262801956&rtpof=true&sd=true',
           label: 'Rubber Band Car'
+        },
+        {
+          url: 'https://www.youtube.com/watch?v=0W9iaB42QDU',
+          label: 'Rubber Band Car - Video'
         }
       ]
     }
