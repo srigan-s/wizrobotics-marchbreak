@@ -7,12 +7,12 @@ function HomePage({ onNavigate }: HomePageProps) {
   const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
 
   const leaderboard = [
-    { name: 'Isaac Deng', points: 300 },
-    { name: 'Joey Li', points: 500 },
-    { name: 'Kevin Chen', points: 700 },
-    { name: 'Elvis Chen', points: 400 },
-    { name: 'Ray Wang', points: 600 },
-    { name: 'Asher Cruz', points: 0 },
+    { name: 'Isaac Deng', points: 1000 },
+    { name: 'Joey Li', points: 1000 },
+    { name: 'Kevin Chen', points: 1000 },
+    { name: 'Elvis Chen', points: 1000 },
+    { name: 'Ray Wang', points: 1000 },
+    { name: 'Asher Cruz', points: 1000 },
   ];
 
   return (
